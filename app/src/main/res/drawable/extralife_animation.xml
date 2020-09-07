@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <animation-list android:id="@+id/expode" android:oneshot="true"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:drawable="@drawable/lives0" android:duration="10" />
+    <item android:drawable="@drawable/lives1" android:duration="10" />
+    <item android:drawable="@drawable/lives2" android:duration="10" />
+    <item android:drawable="@drawable/lives3" android:duration="10" />
+    <item android:drawable="@drawable/lives4" android:duration="10" />
+    <item android:drawable="@drawable/lives5" android:duration="1750" />
+    <item android:drawable="@drawable/lives6" android:duration="10" />
+    <item android:drawable="@drawable/lives7" android:duration="10" />
+    <item android:drawable="@drawable/blank" android:duration="5" />
+    
+ </animation-list>

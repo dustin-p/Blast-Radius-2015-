@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "28.0.2"
+
+    defaultConfig {
+        applicationId "com.porterdustin.zombienuke"
+        minSdkVersion 11
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main/java', 'src/main/java/effects', 'src/main/java/com.porterdustin.zombienuke/effects', 'src/main/java/activities', 'src/main/java/com.porterdustin/activities', 'src/main/java/com.porterdustin.activities']
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:21.0.3'
+}

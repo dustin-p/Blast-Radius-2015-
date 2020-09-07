@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <animation-list android:id="@+id/biteanimation" android:oneshot="true"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bite1" android:duration="30" />
+    <item android:drawable="@drawable/bite2" android:duration="30" />
+    <item android:drawable="@drawable/bite3" android:duration="30" />
+    <item android:drawable="@drawable/bite4" android:duration="30" />
+    <item android:drawable="@drawable/bite5" android:duration="30" />
+    <item android:drawable="@drawable/bite6" android:duration="30" />
+    <item android:drawable="@drawable/bite1" android:duration="30" />
+    <item android:drawable="@drawable/dog1" android:duration="150" />
+    <item android:drawable="@drawable/dog2" android:duration="150" />
+    <item android:drawable="@drawable/dog3" android:duration="150" />
+    <item android:drawable="@drawable/dog2" android:duration="150" />
+ </animation-list>

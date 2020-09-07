@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <animation-list android:id="@+id/zombiepop" android:oneshot="true"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/zombie_apop0" android:duration="20" />
+    <item android:drawable="@drawable/zombie_apop1" android:duration="40" />
+    <item android:drawable="@drawable/zombie_apop2" android:duration="35" />
+    <item android:drawable="@drawable/zombie_apop3" android:duration="30" />
+    <item android:drawable="@drawable/zombie_apop4" android:duration="30" />
+    <item android:drawable="@drawable/zombie_apop5" android:duration="30" />
+	<item android:drawable="@drawable/blank" android:duration="5" />
+
+ </animation-list>
+   

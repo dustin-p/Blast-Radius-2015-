@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <animation-list android:id="@+id/zombie2animation" android:oneshot="false"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/zombie_b1" android:duration="125" />
+    <item android:drawable="@drawable/zombie_b2" android:duration="125" />
+    <item android:drawable="@drawable/zombie_b1" android:duration="125" />
+    <item android:drawable="@drawable/zombie_b3" android:duration="125" />
+ </animation-list>

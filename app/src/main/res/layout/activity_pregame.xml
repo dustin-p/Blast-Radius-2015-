@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+    <ImageView
+        android:id="@+id/preGameTitle"
+        android:layout_width="240dp"
+        android:layout_height="24dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pregame_title1" />
+    
+    <Button
+        android:id="@+id/readyBtn"
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ready"
+        android:onClick="play" />
+
+    <ImageView
+        android:id="@+id/descriptionBack"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pud_back" />
+    
+    <View
+        android:id="@+id/anchor"
+        android:layout_width="2dp"
+        android:layout_height="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/btnOff"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignRight="@+id/anchor"
+        android:src="@drawable/offensebtn"
+        android:onClick="clickOffense" />
+    
+    <ImageView
+        android:id="@+id/btnDef"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/anchor"
+        android:src="@drawable/defensebtn"
+        android:onClick="clickDefense" />
+    
+    <ImageView
+        android:id="@+id/btnRan"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignRight="@+id/anchor"
+        android:src="@drawable/randombtn"
+        android:onClick="clickRandom" />
+    
+    <ImageView
+        android:id="@+id/btnNone"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/anchor"
+        android:src="@drawable/nonebtn"
+        android:onClick="clickNone" />
+    
+    <ImageView
+        android:id="@+id/powerUp1"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true" />
+    
+    <ImageView
+        android:id="@+id/powerUp2"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true" />
+    
+    <ImageView
+        android:id="@+id/powerUp3"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true" />"
+
+</RelativeLayout>

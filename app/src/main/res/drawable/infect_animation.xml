@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <animation-list android:id="@+id/zombiepop" android:oneshot="true"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/infect1" android:duration="50" />
+    <item android:drawable="@drawable/infect2" android:duration="50" />
+    <item android:drawable="@drawable/infect3" android:duration="50" />
+    <item android:drawable="@drawable/infect4" android:duration="50" />
+    <item android:drawable="@drawable/infect5" android:duration="50" />
+	<item android:drawable="@drawable/blank" android:duration="5" />
+
+ </animation-list>
+   

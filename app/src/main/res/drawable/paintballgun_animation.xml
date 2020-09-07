@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <animation-list android:id="@+id/paintleft" android:oneshot="true"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:drawable="@drawable/paintgun1" android:duration="5" />
+    <item android:drawable="@drawable/paintgun2" android:duration="50" />
+    <item android:drawable="@drawable/paintgun1" android:duration="5" />
+ </animation-list>
+ 

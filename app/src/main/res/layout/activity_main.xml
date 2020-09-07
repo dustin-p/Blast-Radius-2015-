@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.porterdustin.activities.MainActivity" >
+    
+     <ImageView
+        android:id="@+id/mainMenuImage"
+        android:layout_width="wrap_content"
+        android:layout_height="192dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/mainmenu_background"
+        android:src="@drawable/mainmenu_foreground" />
+    
+     
+     
+    <Button
+        android:id="@+id/levelSelectBtn"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:onClick="levelSelect"
+        android:background="@drawable/btn_levelselect" />
+       
+    
+    <Button
+        android:id="@+id/armoryBtn"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_armory" />
+    
+    <Button
+        android:id="@+id/achievementBtn"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_achievements" />
+    
+    <Button
+        android:id="@+id/leaderboardBtn"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_leaderboard" />
+    
+    <Button
+        android:id="@+id/helpBtn"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_levelselect"
+        android:visibility="gone" />
+    
+</RelativeLayout>

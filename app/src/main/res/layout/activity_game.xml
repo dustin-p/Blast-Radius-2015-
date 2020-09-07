@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.porterdustin.activities.GameActivity" >
+    
+    <View
+        android:id="@+id/anchor"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+    
+    
+    
+    <ImageView
+        android:id="@+id/gameBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menuTop" 
+        android:layout_above="@+id/menuBottom"
+        android:layout_toLeftOf="@+id/menuRight"
+        android:layout_toRightOf="@+id/menuLeft"
+        android:background="#FFFFFF" />
+    
+    <ImageView
+        android:id="@+id/paperWrinkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menuTop" 
+        android:layout_above="@+id/menuBottom"
+        android:layout_toLeftOf="@+id/menuRight"
+        android:layout_toRightOf="@+id/menuLeft"
+        android:src="@drawable/paper_animation"/>
+    
+    
+    
+    
+    <View
+        android:id="@+id/menuTop"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/divider" />
+    
+    
+    
+    <View
+        android:id="@+id/menuBottom"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:background="#111111" />
+
+    
+    <View
+        android:id="@+id/menuLeft"
+        android:layout_width="12dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="#111111" />
+    
+    <View
+        android:id="@+id/menuRight"
+        android:layout_width="12dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="#111111" />
+    
+    
+    <View
+        android:id="@+id/playPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menuTop" 
+        android:layout_above="@+id/menuBottom"
+        android:layout_toLeftOf="@+id/menuRight"
+        android:layout_toRightOf="@+id/menuLeft"
+        android:background="@drawable/play"
+        android:visibility="gone" />
+    
+    <View
+        android:id="@+id/levelStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menuTop" 
+        android:layout_above="@+id/menuBottom"
+        android:layout_toLeftOf="@+id/menuRight"
+        android:layout_toRightOf="@+id/menuLeft"
+        android:background="@drawable/finished"
+        android:visibility="gone"/>
+	
+    <ImageView
+        android:id="@+id/zombieBarOutline"
+        android:layout_width="128dp"
+        android:layout_height="32dp"
+        android:src="@drawable/zbar_animation" />
+
+    <View
+        android:id="@+id/zombieBarBack"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/zombieBarOutline"
+        android:layout_alignBottom="@+id/zombieBarOutline"
+        android:layout_alignLeft="@+id/zombieBarOutline"
+        android:background="@drawable/zbar4" />
+
+    <ImageView
+        android:id="@+id/heartImage"
+        android:layout_width="144dp"
+        android:layout_height="96dp"
+        android:background="@drawable/heart_back"
+        android:src="@drawable/heart_animation" />
+    
+    <ImageView
+        android:id="@+id/livesDigit"
+        android:layout_width="144dp"
+        android:layout_height="96dp"
+        android:background="@drawable/zero1" />
+    
+    <ImageView
+        android:id="@+id/starRating"
+        android:layout_width="196dp"
+        android:layout_height="72dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/star_animation"
+        android:background="@drawable/threestar" />
+
+    <ImageView
+        android:id="@+id/digitOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/zero1" />
+    
+    <ImageView
+        android:id="@+id/digitTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/zero1" />
+    
+    <ImageView
+        android:id="@+id/digitThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/zero1" />
+    
+    <View
+        android:id="@+id/blackFade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"/>
+        
+</RelativeLayout>

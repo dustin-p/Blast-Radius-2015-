@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <animation-list android:id="@+id/axright" android:oneshot="true"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:drawable="@drawable/axe0" android:duration="5" />
+     <item android:drawable="@drawable/axe1" android:duration="40" />
+     <item android:drawable="@drawable/axe2" android:duration="30" />
+     <item android:drawable="@drawable/axe3" android:duration="250" />
+     <item android:drawable="@drawable/axe2" android:duration="50" />
+     <item android:drawable="@drawable/axe1" android:duration="40" />
+     <item android:drawable="@drawable/axe0" android:duration="5" />
+ </animation-list>
+ 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <animation-list android:id="@+id/humananimation" android:oneshot="false"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/human1" android:duration="75" />
+    <item android:drawable="@drawable/speed1" android:duration="75" />
+    <item android:drawable="@drawable/speed2" android:duration="75" />
+    <item android:drawable="@drawable/speed3" android:duration="75" />
+    <item android:drawable="@drawable/human3" android:duration="75" />
+    <item android:drawable="@drawable/speed2" android:duration="75" />
+ </animation-list>

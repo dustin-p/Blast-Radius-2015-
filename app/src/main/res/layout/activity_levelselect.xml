@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+    <View
+	    android:id="@+id/anchor"
+	    android:layout_width="2dp"
+	    android:layout_height="2dp"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true" />
+    
+	<ImageView
+        android:id="@+id/starRating"
+        android:layout_width="144dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/star_animation"
+        android:background="@drawable/twostar" />
+	
+	<ImageView
+        android:id="@+id/levelBackBack"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_alignLeft="@+id/levelBack"
+        android:layout_alignRight="@+id/levelBack"
+        android:layout_alignTop="@+id/levelBack"
+        android:layout_alignBottom="@+id/levelBack" />
+	
+	<ImageView
+        android:id="@+id/levelBack"
+        android:layout_height="192dp"
+        android:layout_width="wrap_content"
+        android:layout_above="@+id/anchor"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/paper_animation"
+        android:background="#FFFFFF" />
+	
+	<ImageView
+        android:id="@+id/playLevel"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@drawable/pictureframe_animation"
+        android:layout_alignLeft="@+id/levelBack"
+        android:layout_alignRight="@+id/levelBack"
+        android:layout_alignTop="@+id/levelBack"
+        android:layout_alignBottom="@+id/levelBack"
+        android:onClick="play" />
+	
+	<ImageView
+        android:id="@+id/levelNumber"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/anchor"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/levelnumber" />
+	
+	<ImageView
+        android:id="@+id/digitTwo"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_below="@+id/arrowTwoUp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/five1" />
+	
+	<ImageView
+        android:id="@+id/arrowTwoUp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/levelNumber"
+        android:layout_alignLeft="@+id/digitTwo"
+        android:layout_alignRight="@+id/digitTwo"
+        android:src="@drawable/arrowup"
+        android:onClick="changeNumber" />
+	
+	<ImageView
+        android:id="@+id/arrowTwoDown"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/digitTwo"
+        android:layout_alignLeft="@+id/digitTwo"
+        android:layout_alignRight="@+id/digitTwo"
+        android:src="@drawable/arrowdown"
+        android:onClick="changeNumber" />
+
+	
+	
+	<ImageView
+        android:id="@+id/digitOne"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_below="@+id/arrowTwoUp"
+        android:layout_toLeftOf="@+id/digitTwo"
+        android:src="@drawable/zero1" />
+	
+	
+	<ImageView
+        android:id="@+id/arrowOneUp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/levelNumber"
+        android:layout_alignLeft="@+id/digitOne"
+        android:layout_alignRight="@+id/digitOne"
+        android:src="@drawable/arrowup"
+        android:onClick="changeNumber" />
+	
+	<ImageView
+        android:id="@+id/arrowOneDown"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/digitOne"
+        android:layout_alignLeft="@+id/digitOne"
+        android:layout_alignRight="@+id/digitOne"
+        android:src="@drawable/arrowdown"
+        android:onClick="changeNumber" />
+	
+	
+	
+	<ImageView
+        android:id="@+id/digitThree"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_below="@+id/arrowTwoUp"
+        android:layout_toRightOf="@+id/digitTwo"
+        android:src="@drawable/eight1" />
+	
+	
+	<ImageView
+        android:id="@+id/arrowThreeUp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/levelNumber"
+        android:layout_alignLeft="@+id/digitThree"
+        android:layout_alignRight="@+id/digitThree"
+        android:src="@drawable/arrowup"
+        android:onClick="changeNumber" />
+	
+	<ImageView
+        android:id="@+id/arrowThreeDown"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/digitThree"
+        android:layout_alignLeft="@+id/digitThree"
+        android:layout_alignRight="@+id/digitThree"
+        android:src="@drawable/arrowdown"
+        android:onClick="changeNumber" />
+	
+	
+</RelativeLayout>

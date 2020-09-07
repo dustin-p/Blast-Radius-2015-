@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <animation-list android:id="@+id/paperhole_animation" android:oneshot="true"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:drawable="@drawable/phole0" android:duration="150" />
+     <item android:drawable="@drawable/phole0b" android:duration="150" />
+     <item android:drawable="@drawable/phole0" android:duration="150" />
+     <item android:drawable="@drawable/phole0c" android:duration="150" />
+     <item android:drawable="@drawable/phole0" android:duration="150" />
+     <item android:drawable="@drawable/phole0b" android:duration="150" />
+     <item android:drawable="@drawable/phole0" android:duration="150" />
+     <item android:drawable="@drawable/phole0c" android:duration="150" />
+     <item android:drawable="@drawable/phole0" android:duration="150" />
+     <item android:drawable="@drawable/phole0b" android:duration="150" />
+     <item android:drawable="@drawable/phole1" android:duration="50" />
+     <item android:drawable="@drawable/phole2" android:duration="50" />
+     <item android:drawable="@drawable/phole3" android:duration="50" />
+     <item android:drawable="@drawable/phole4" android:duration="50" />
+     <item android:drawable="@drawable/blank" android:duration="10" />
+ </animation-list>
+ 

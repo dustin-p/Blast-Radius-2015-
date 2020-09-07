@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <animation-list android:id="@+id/zombie1animation" android:oneshot="false"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/zombie_d1" android:duration="88" />
+    <item android:drawable="@drawable/zombie_a2" android:duration="88" />
+    <item android:drawable="@drawable/zombie_d1" android:duration="88" />
+    <item android:drawable="@drawable/zombie_d3" android:duration="88" />
+    <item android:drawable="@drawable/zombie_a1" android:duration="88" />
+    <item android:drawable="@drawable/zombie_d2" android:duration="88" />
+    <item android:drawable="@drawable/zombie_d1" android:duration="88" />
+    <item android:drawable="@drawable/zombie_a3" android:duration="88" />
+ </animation-list>

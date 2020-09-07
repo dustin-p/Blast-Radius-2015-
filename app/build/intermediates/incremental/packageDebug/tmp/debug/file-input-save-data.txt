@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Sep 07 15:54:18 MDT 2020
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Dustin\\StudioProjects\\ZombieBomber\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1
